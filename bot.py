@@ -8,6 +8,9 @@ token = "NjYyNjUzODUxNDI5NTAyOTc2.Xg9VsQ.ijhnoZ6rPZROJFRRdPz39rWL5pM"
 
 # 봇이 구동되었을 때 보여지는 코드
 @client.event
+
+await client.change_presence(game=discord.Game(name=count.text, type=3))
+
 async def on_ready():
     print("다음으로 로그인합니다")
     print(client.user.name)
