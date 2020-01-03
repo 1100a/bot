@@ -4,7 +4,7 @@ import discord
 client = discord.Client()
 
 # 생성된 토큰을 입력해준다.
-token = "토큰"
+token = "NjYyNjUzODUxNDI5NTAyOTc2.Xg9VsQ.ijhnoZ6rPZROJFRRdPz39rWL5pM"
 
 # 봇이 구동되었을 때 보여지는 코드
 @client.event
@@ -25,4 +25,4 @@ async def on_message(message):
         channel = message.channel
         await channel.send('반가워!')
 
-client.run(NjYyNjUzODUxNDI5NTAyOTc2.Xg9HPA.PvFt99NZRuLCh-Ct-Rfc8HJjHlA)
+client.run(token)
