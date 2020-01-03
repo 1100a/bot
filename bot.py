@@ -25,4 +25,4 @@ async def on_message(message):
         channel = message.channel
         await channel.send('반가워!')
 
-client.run(token)
+client.run(NjYyNjUzODUxNDI5NTAyOTc2.Xg9HPA.PvFt99NZRuLCh-Ct-Rfc8HJjHlA)
